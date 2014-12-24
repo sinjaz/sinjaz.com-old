@@ -4,24 +4,25 @@ $color3: #DBE6EC;
 $color4: #C2CBCE;
 $color5: #A4BCC2;
 $color6: #81A8B8;
-$color7: #00404F;
+$color7: #002730;
 
 html {
-  overflow-y: $color7;
+  overflow-y: scroll;
 }
 
 body{
-  background-color: #00404F;
+  background-color: $color7;
   color: white;
   background-image: url("/assets/images/sina.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
-  margin: 100px;
   background-position: center center;
+  margin-top: 100px;
 
   .container{
-    max-width: 800px !important;
+    margin: auto;
+    max-width: 700px !important;
   }
 }
 

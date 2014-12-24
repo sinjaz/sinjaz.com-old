@@ -8,11 +8,10 @@
                 <div id="title-subtitle-container" ng-style="getArticleStyle(item)">
                     <h1 id="title">{{item.title}}</h1>
                     <h4 id="subtitle">{{item.subtitle}}</h4>
+                    <div id="container" ng-bind-html="item.body"></div>
+                    <div id="cta" ng-click="onClick(item.cta)">Read more...</div>
+                    <div class="spacer" style="clear: both;"></div>
                 </div>
-                <div id="container" ng-bind-html="item.body"></div>
-                <!-- <div id="cta" ng-click="onClick(item.cta)">Read more...</div> -->
-                <a id="cta" href="#/article">Read more...</a>
-                <div class="spacer" style="clear: both;"></div>
             </div>
         </div>
     </div>

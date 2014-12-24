@@ -30,6 +30,14 @@ angular.module('sinjaz')
 				cta: '#/article',
 				image: 'https://cdn.tutsplus.com/net/uploads/2013/05/es6.jpg',
 				body: "<p>ECMAScript is the scripting language standardized by Ecma International in the ECMA-262 specification and ISO/IEC 16262. The language is widely used for client-side scripting on the web, in the form of several well-known implementations such as JavaScript, JScript and ActionScript.</p>"
+			},
+			{
+				date: 'Jan 1st 2015',
+				title: 'Daily Scrum',
+				subtitle: 'Why I do every day no matter what',
+				cta: '#/article',
+				image: 'http://ullizee.files.wordpress.com/2013/01/scrum-org-logo-circles.png',
+				body: "<p>Agile software development is a group of software development methods in which requirements and solutions evolve through collaboration between self-organizing, cross-functional teams. It promotes adaptive planning, evolutionary development, early delivery, continuous improvement and encourages rapid and flexible response to change.</p>"
 			}
 		];
 

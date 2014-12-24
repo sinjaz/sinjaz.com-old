@@ -19,8 +19,10 @@ angular.module('sinjaz')
     $scope.getArticleStyle = function(item){
       if(item.image){
         return {
-          'background-image': 'url('+item.image+')',
-          'padding-left': '78px'
+          'background-image'  : 'url('+item.image+')',
+          'padding-left'      : '175px',
+          'background-size'   : '165px 165px',
+          'background-repeat' : 'no-repeat'
         }
       }
     }

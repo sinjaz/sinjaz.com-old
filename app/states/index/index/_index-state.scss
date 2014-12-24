@@ -3,13 +3,12 @@
 	.article
 	{
 		#title-subtitle-container{
-			background-size: contain;
-			background-repeat: no-repeat;
+			
 		}
 
 		#date{
 			position: absolute;
-			right: 0px;
+			right: 15px;
 			color: #81A8B8;
 		}
 
@@ -31,6 +30,7 @@
 			border: 1px solid;
 			padding: 5px;
 			float: right;
+			cursor: pointer;
 		}
 
 		#cta:hover{
