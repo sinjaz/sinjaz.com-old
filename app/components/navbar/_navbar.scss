@@ -1,0 +1,15 @@
+.navbar-component {
+	//background: rgba(255, 255, 255, 0.2);
+	border-color: #81A8B8;
+
+	.active{
+		background-color: black !important;
+		a{
+			background-color: black !important;
+		}
+	}
+
+	.navbar-brand{
+		color: #999;
+	}
+}

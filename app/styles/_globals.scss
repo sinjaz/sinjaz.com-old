@@ -1,0 +1,51 @@
+$color1: white;
+$color2: #E8F3F8;
+$color3: #DBE6EC;
+$color4: #C2CBCE;
+$color5: #A4BCC2;
+$color6: #81A8B8;
+$color7: #00404F;
+
+html {
+  overflow-y: $color7;
+}
+
+body{
+  background-color: #00404F;
+  color: white;
+  background-image: url("/assets/images/sina.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  margin: 100px;
+  background-position: center center;
+
+  .container{
+    max-width: 800px !important;
+  }
+}
+
+#root
+{
+  position: relative; //View will be positioned absolute during animations
+
+  > div[ng-view], > div[ui-view]
+  {
+    > .container
+    {
+      max-width: none;
+      width: 100%;
+      margin-top: 40px;
+    }
+  }
+}
+
+.no-left-margin
+{
+  margin-left: 0 !important;
+}
+
+[ng-click], [ui-sref]
+{
+  cursor: pointer;
+}

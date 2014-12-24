@@ -1,0 +1,19 @@
+<div class="index-state container">
+
+    
+    <div class="row">
+        <div class="col-lg-12">
+            <div ng-repeat="item in articles" class="page-header article">
+                <p id="date">{{item.date}}</p>
+                <div id="title-subtitle-container" ng-style="getArticleStyle(item)">
+                    <h1 id="title">{{item.title}}</h1>
+                    <h4 id="subtitle">{{item.subtitle}}</h4>
+                </div>
+                <div id="container" ng-bind-html="item.body"></div>
+                <!-- <div id="cta" ng-click="onClick(item.cta)">Read more...</div> -->
+                <a id="cta" href="#/article">Read more...</a>
+                <div class="spacer" style="clear: both;"></div>
+            </div>
+        </div>
+    </div>
+</div>
